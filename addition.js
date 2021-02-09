@@ -1,5 +1,5 @@
 // performs an addition of two parameters
 module.exports = {
-  operator: '+',
+  operator: '*',
   fn: (x, y) => x + y,
 };
