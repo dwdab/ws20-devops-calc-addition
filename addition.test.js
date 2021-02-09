@@ -1,6 +1,12 @@
 const addition = require('./addition');
 
-describe('check addition', () => {
+describe('check operator', () => {
+  it('operator should be +', () => {
+    expect(addition.operator).toBe('+');
+  });
+});
+
+describe('check function', () => {
 
   it('2+3 should be 5', () => {
     // Arrange
